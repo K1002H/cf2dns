@@ -156,7 +156,7 @@ def main(cloud):
                                 info["recordId"] = record["id"]
                                 info["value"] = record["value"]
                                 ab_info.append(info)
-                            if record["line"] == "默认":
+                            if record["line"] == "境内":
                                 info = {}
                                 info["recordId"] = record["id"]
                                 info["value"] = record["value"]
